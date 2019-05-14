@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
-  $(".button").click(function () 
-        $(".button-overlay").toggleClass("active");
-	});
+ $('#button').on('click', function(){
+ 	alert('Thank you for your feedback!');
 
+ 	});
+});
