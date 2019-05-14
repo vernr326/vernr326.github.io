@@ -1,0 +1,148 @@
+
+body {
+	margin: 0;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.hero {
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(jussiecourt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.hero h3 {
+	font-family: 'Noto Sans JP', sans-serif;
+	color: white;
+}
+
+h4 {
+	font-family: 'Noto Sans JP', sans-serif;
+	width: 700px;
+	padding-left: 375px;
+	color: navy;
+}
+
+h5 {
+	font-family: 'Noto Sans JP', sans-serif;
+	width: 700px;
+	color: navy;
+}
+
+p {
+	font-family: 'Noto Sans JP', sans-serif;
+	width: 700px;
+	padding-left: 375px;
+	color: navy;
+	text-align: justify;
+}
+
+.blockquote1 {
+	width: 500px;
+	text-align: center;
+	padding-left: 335px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.twitter1 {
+	padding-left: 150px;
+}
+
+.img1 {
+	width: 250px;
+	height: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.img2 {
+	width: 375px;
+	height: 260px;
+	padding-right: 20px;
+
+}
+
+.blockquote2 {
+	width: 500px;
+	text-align: center;
+	padding-left: 335px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.twitter2 {
+	padding-left: 175px;
+	color: red;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+.responses {
+	padding-left:500px;
+}
+
+.button {
+	padding-left:500px;
+}
+
+label {
+	font-family: 'Noto Sans JP', sans-serif;
+	width: 700px;
+	color: navy;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
